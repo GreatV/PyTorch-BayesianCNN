@@ -41,5 +41,5 @@ if __name__ == "__main__":
         print("[JIT] torch.export successed.")
         exit(0)
     except Exception as e:
-        print("[JIT] rch.export failed.")
+        print("[JIT] torch.export failed.")
         raise e
